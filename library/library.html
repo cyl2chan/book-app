@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="library.css">
+    <link rel="icon" type="image/x-icon" href="../icons/home.svg">
+    <title>Home</title>
+</head>
+<body>
+
+    <div id="menu">
+        <div class="dashboard">
+            <img src="../icons/view-dashboard.svg">
+            <h1>Dashbboard</h1>
+        </div>
+        <div class="blank"></div>
+        <div class="menuItem">
+            <img src="../icons/home.svg">
+            <h2>Home</h2>
+        </div>
+        <a class="menuItem" href="library.html">
+            <img src="../icons/book-open-page-variant.svg">
+            <h2>Library</h2>
+        </a>
+        <a class="menuItem" href="../challenge/challenge.html">
+            <img src="../icons/stairs-up.svg">
+            <h2>Challenge</h2>
+        </a>
+        <div class="menuItem">
+            <img src="../icons/face-man-profile.svg">
+            <h2>Profile</h2>
+        </div>
+        <div class="menuItem">
+            <img src="../icons/message.svg">
+            <h2>Message</h2>
+        </div>
+        <div class="menuItem">
+            <img src="../icons/history.svg">
+            <h2>History</h2>
+        </div>
+        <div class="menuItem">
+            <img src="../icons/google-circles-communities.svg">
+            <h2>Communities</h2>
+        </div>       
+        <div class="blank"></div>
+        <div class="menuItem">
+            <img src="../icons/cog.svg">
+            <h2>Settings</h2>
+        </div> 
+        <div class="menuItem">
+            <img src="../icons/tooltip-question.svg">
+            <h2>Suppport</h2>
+        </div> 
+        <div class="menuItem">
+            <img src="../icons/lock.svg">
+            <h2>Privacy</h2>
+        </div> 
+
+    </div>
+    
+    <div id="body-right">
+        <div id="header">
+            <div id="top">
+                <div id="topLeft">
+                    <img src="../icons/magnify.svg" id="seachIcon">
+                    <input type="text" id="searchBar">
+                </div>
+                <div id="topRight">
+                    <img src="../icons/bell-ring-outline.svg" id="bellRing">
+                    <img src="../icons/leon.png">
+                    <p>Leon Chan</p>
+                </div>
+            </div>
+            <div id="tab">
+                <img src="../icons/leon.png">
+                <div id="greetings">
+                    <p id="hi">&nbsp; Hi there,</p>
+                    <p id="leon-chan">Leon Chan (@leon76)</p>
+                </div>
+                <div id="round-btn-gp">
+                    <button class="round-btn add-book">+ Book</utton>
+                    <button class="round-btn">Upload</button>
+                    <button class="round-btn">Share</button>
+                </div>
+            </div>
+        </div>   
+        <div id="content">
+            <div id="content-left">
+                
+                <h3 id="your-proj">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Your Books</h3>
+                <div class="books">
+                    
+
+                </div>
+                
+                <div class="modal" id="modal">
+                    <div class="modal-content">
+                        <span class="close">X</span>
+                        <div class="modal-form">
+                            <h1 class="form-title">Add Book</h1>
+                            <form class="add-book-form">
+                                <div class="modal-input-field title">
+                                    <label for="book-title">Title:&nbsp;</label>
+                                    <input
+                                        type="text"
+                                        name="book-title"
+                                        id="book-title"
+                                        class="modal-form-input"
+                                    />
+                                </div>
+                                <div class="modal-input-field author">
+                                    <label for="book-author">Author:</label>
+                                    <input
+                                        type="text"
+                                        name="book-author"
+                                        id="book-author"
+                                        class="modal-form-input"
+                                    />
+                                </div>
+                                <div class="modal-input-field pages">
+                                    <label for="book-pages">Pages:</label>
+                                    <input
+                                        type="number"
+                                        min="0"
+                                        name="book-pages"
+                                        id="book-pages"
+                                        class="modal-form-input"
+                                    />
+                                </div>
+                                <div class="modal-input-field read">
+                                    <span class="modal-read">Read?</span>
+                                    <label class="container">
+                                        <input
+                                            type="checkbox"
+                                            name="book-read"
+                                            id="book-read"
+                                            class="checkmark"
+                                        />
+                                    </label>
+                                </div>
+                                <div class="submit-modal-form add-btn">
+                                    <button type="submit" class="btn form-add-button">Add</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="content-right">
+        
+                <div id="announcements">
+                    <h2>Announcements</h2>
+                    <div id="ann-grid">
+                        <div class="ann-item">
+                            <h2>Site Maintenance</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor...</p>
+                        </div>
+                        <div class="ann-item">
+                            <h2>Canada Day</h2>
+                            <p>Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes...</p>
+                        </div>
+                        <div class="ann-item">
+                            <h2>Updated Privacy Policy</h2>
+                            <p>nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem...</p>
+                        </div>
+                    </div>
+                </div>
+            
+                <div id="trending">
+                    <h2 id="trending-text">Trending</h2>
+                    <div id="t-grid">
+                        <div class="t-item">
+                            <img src="../icons/dj.png">
+                            <div>
+                                <h4 class="t-item-user">@djbrian</h4>
+                                <p class="t-item-description">Music Project</p>
+                            </div>
+                        </div>
+                        <div class="t-item">
+                            <img  src="../icons/frontend.png">
+                            <div>
+                                <h4 class="t-item-user">@Alex</h4>
+                                <p class="t-item-description">Javascript Mentor</p>
+                            </div>
+                        </div>
+                        <div class="t-item">
+                            <img  src="../icons/backend.png">
+                            <div>
+                                <h4 class="t-item-user">@christopher</h4>
+                                <p class="t-item-description">Backend Expert</p>
+                            </div>
+                        </div>
+                        <div class="t-item">
+                            <img  src="../icons/messi.png">
+                            <div>
+                                <h4 class="t-item-user">@messi</h4>
+                                <p class="t-item-description">GOAT builder</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                           
+                </div>
+            </div>
+        </div>
+        
+        
+    
+    </div>
+
+    <script src="library.js"></script>
+</body>
+</html>
+
