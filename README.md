@@ -1,6 +1,8 @@
 language: Javascript, CSS, HTML
 
-In this book app, I have a Library, which stores books information, and a Reading Challenge, which you can set goals of the number of books you aim to read. 
+In this book app, I have a Library, which stores books information, and a Reading Challenge, which you can set goals of the number of books you aim to read.
+
+Click the link under "About" on the right hand side of the screen to see my app. 
 
 __Local Storage__
 
